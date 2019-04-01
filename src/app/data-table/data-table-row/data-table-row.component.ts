@@ -7,7 +7,7 @@ import { DataTableComponent } from '../data-table.component';
   moduleId: module.id,
   // tslint:disable-next-line:component-selector
   selector: '[dataTableRow]',
-  template: 'data-table-row.component.html',
+  templateUrl: 'data-table-row.component.html',
   styleUrls: ['data-table-row.component.css']
 })
 export class DataTableRowComponent implements OnDestroy {

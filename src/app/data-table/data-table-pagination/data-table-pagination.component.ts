@@ -5,7 +5,7 @@ import { DataTableComponent } from '../data-table.component';
   moduleId: module.id,
   // tslint:disable-next-line:component-selector
   selector: 'data-table-pagination',
-  template: 'data-table-pagination.component.html',
+  templateUrl: 'data-table-pagination.component.html',
   styleUrls: ['data-table-pagination.component.css']
 })
 export class DataTablePaginationComponent {

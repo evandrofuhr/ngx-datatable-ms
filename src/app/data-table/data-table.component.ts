@@ -17,7 +17,7 @@ import { drag } from '../shared/utils/drag';
   moduleId: module.id,
   // tslint:disable-next-line:component-selector
   selector: 'data-table',
-  template: 'data-table.component.html',
+  templateUrl: 'data-table.component.html',
   styleUrls: ['data-table.component.css']
 })
 export class DataTableComponent implements IDataTableParams, OnInit {
