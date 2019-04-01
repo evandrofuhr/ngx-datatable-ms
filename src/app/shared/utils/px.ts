@@ -5,7 +5,7 @@ import { Pipe, PipeTransform } from '@angular/core';
   name: 'px'
 })
 export class PixelConverter implements PipeTransform {
-  public transform(value: string | number, args: string[]): any {
+  public transform(value: string | number): any {
     if (value === undefined) {
       return;
     }
